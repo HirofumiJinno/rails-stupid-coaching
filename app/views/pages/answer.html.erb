@@ -1,0 +1,11 @@
+<div class='background-grey'>
+  <h2>Question: <%=@question.capitalize%></h2>
+  <p>- You</p>
+</div>
+<div class='background-dark-grey'>
+  <h2>Answer: <%=@answer%></h2>
+  <p>- Your coach</p>
+</div>
+<div>
+  <h2><%= link_to 'Ask more questions!', ask_path %>
+</div>
